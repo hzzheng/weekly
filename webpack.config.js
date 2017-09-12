@@ -144,7 +144,6 @@ if (isProd) {
   )
   config.plugins.push(
     new HtmlWebpackPlugin({
-      title: 'Weekly',
       template: path.resolve(__dirname, './template.html')
     })
   )
