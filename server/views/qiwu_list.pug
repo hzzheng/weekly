@@ -1,0 +1,8 @@
+extends ./layout.pug
+
+block content
+  ul
+    each post in list
+      li
+        a(href=post.url target="_blank")=post.text
+        p=post.desc
