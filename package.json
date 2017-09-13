@@ -10,7 +10,7 @@
     "dev": "nodemon ./client/dev_server.js && npm start",
     "start": "nodemon ./server/index.js",
     "clean": "rimraf dist",
-    "build": "npm run clean && NODE_ENV=production webpack --progress",
+    "build": "npm run clean && NODE_ENV=production webpack --progress && cp sw.js ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
