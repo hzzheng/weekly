@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Weekly</title>
 </head>
+
 <body>
   <div id="app"></div>
   <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker
-          .register('/sw.js')
-          .then(function(registration) {
-            console.log('Registration successful with scope:', registration.scope)
-          }, function(err) {
-            console.log('Registration failed:', err)
-          })
-      }
-    </script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(function (registration) {
+          console.log('Registration successful with scope:', registration.scope)
+        }, function (err) {
+          console.log('Registration failed:', err)
+        })
+    }
+  </script>
+
 </body>
+
 </html>
