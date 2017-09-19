@@ -6,6 +6,9 @@
   "bin": {
     "hello": "test.js"
   },
+  "engines": {
+    "node": "7.7.4"
+  },
   "scripts": {
     "dev": "nodemon ./client/dev_server.js && npm start",
     "start": "nodemon ./server/index.js",
