@@ -2,4 +2,5 @@
 *.log
 node_modules
 npm-debug*
+dist
 /*.env
