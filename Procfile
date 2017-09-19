@@ -1,1 +1,1 @@
-web: node --debug=5858 ./server/index.js
+web: node ./server/index.js

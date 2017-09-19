@@ -13,4 +13,4 @@ app.use(convert(serve(path.resolve(__dirname, '../dist'))))
 app.use(views(path.join(__dirname, '/views'), { extension: 'pug' }))
 app.use(router.routes(), router.allowedMethods())
 
-app.listen(3002)
+app.listen(5000)
