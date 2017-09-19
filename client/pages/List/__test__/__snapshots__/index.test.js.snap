@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="weekly-list"
+>
+  <li
+    onClick={[Function]}
+  >
+    <img
+      alt="FEX 技术周刊"
+      className="logo"
+      src="test"
+    />
+  </li>
+  <li
+    onClick={[Function]}
+  >
+    <img
+      alt="奇舞周刊"
+      className="logo"
+      src="test"
+    />
+  </li>
+</ul>
+`;
